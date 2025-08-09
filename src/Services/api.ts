@@ -10,10 +10,10 @@ export const api = createApi({
       query: () => 'destaque'
     }),
     getOnSale: builder.query<Game[], void>({
-      query: () => 'Promoções'
+      query: () => 'promocoes'
     }),
     getSoon: builder.query<Game[], void>({
-      query: () => 'Em breve'
+      query: () => 'em-breve'
     }),
     getActionGames: builder.query<Game[], void>({
       query: () => 'acao'

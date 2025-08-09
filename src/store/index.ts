@@ -15,5 +15,5 @@ export const store = configureStore({
 })
 
 // ✅ Tipos úteis (opcional, mas recomendado)
-export type RootState = ReturnType<typeof store.getState>
+export type RootReducer = ReturnType<typeof store.getState>
 export type AppDispatch = typeof store.dispatch
